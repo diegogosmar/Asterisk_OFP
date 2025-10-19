@@ -395,10 +395,8 @@ text
 
 ## Related Documentation
 
-- [Floor Control Sequence](FLOOR_CONTROL_SEQUENCE.md)
-- [OFP Protocol Implementation](OFP_PROTOCOL.md)
-- [Call Flow Example](CALL_FLOW_EXAMPLE.md)
-- [Asterisk Stasis Flow](STASIS_FLOW.md)
+- [Call Flow Example](call_flow_example.md)
+- [Asterisk Stasis Flow](convener_stasis_flow.md)
 
 ---
 
