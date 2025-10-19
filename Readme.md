@@ -21,8 +21,6 @@ The system uses a **mixed agent architecture** combining:
 - **Agent1**: Dynamic LLM agent (GPT-4 powered responses)
 - **Agent2-3**: Static stub agents (prerecorded audio)
 
-See [Architecture Documentation](docs/ARCHITECTURE.md) for details.
-
 ## Key Features
 
 ### Zero-Latency User Experience
