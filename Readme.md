@@ -14,6 +14,8 @@ This project demonstrates a **multi-agent AI voice system** that orchestrates sp
 
 ## Architecture
 
+![System Architecture](assets/architecture-diagram.png)
+
 The system uses a **mixed agent architecture** combining:
 - **Agent0**: Async hold music (fills processing time)
 - **Agent1**: Dynamic LLM agent (GPT-4 powered responses)
