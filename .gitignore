@@ -1,0 +1,209 @@
+# ============================================
+# Asterisk OFP - Multi-Agent AI System
+# .gitignore for Python + Asterisk project
+# ============================================
+
+# ==================== CRITICAL SECRETS ====================
+# API Keys & Credentials (NEVER COMMIT THESE!)
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets.json
+config.json
+
+# OpenAI & Deepgram API keys
+*openai*key*
+*deepgram*key*
+
+# ==================== PYTHON ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# pyenv
+.python-version
+
+# ==================== AUDIO FILES ====================
+# Audio files (can be large, regenerate as needed)
+*.slin
+*.wav
+*.mp3
+*.gsm
+*.ulaw
+*.alaw
+*.g722
+*.opus
+*.ogg
+
+# Exclude example audio only
+!examples/*.wav
+!examples/*.slin
+
+# ==================== ASTERISK ====================
+# Asterisk specific files with sensitive data
+/var/lib/asterisk/
+/etc/asterisk/pjsip.conf
+/etc/asterisk/sip.conf
+/etc/asterisk/manager.conf
+/etc/asterisk/http.conf
+
+# Asterisk logs
+/var/log/asterisk/
+asterisk_*.log
+
+# ==================== LOGS ====================
+*.log
+logs/
+*.log.*
+/tmp/
+temp/
+
+# ==================== IDE / EDITORS ====================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+sftp-config.json
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ==================== OPERATING SYSTEM ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# ==================== PROJECT SPECIFIC ====================
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# RTP send process outputs
+rtp_*.log
+
+# Temporary test recordings
+test_recordings/
+recordings/
+
+# Database files (if using SQLite for tracking)
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# ==================== DOCUMENTATION BUILD ====================
+# Sphinx documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# ==================== MISC ====================
+# Personal notes
+notes.txt
+TODO.md
+NOTES.md
+scratch/
+
+# Development test files
+test_*.py
+*_test.py
+playground/
+
+# Certificate files
+*.crt
+*.cer
+*.der
+
+# SSH keys
+id_rsa
+id_rsa.pub
+*.ppk
+
