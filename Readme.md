@@ -43,6 +43,10 @@ Full implementation of Open Voice Network's **[Open Floor Protocol (OFP) v1.0.0]
 
 This implementation follows the **OVON Interoperable Conversation Envelope Specification v1.0.0** for multi-agent voice systems.
 
+## 📋 Call Flow Example
+
+For a complete example of Asterisk MultiAgent call flow with OFP JSON messages, see the [detailed call flow documentation](docs/call_flow_example_2.md).
+
 ## Documentation
 
 - [**System Architecture**](docs/ARCHITECTURE.md) - Complete technical overview
