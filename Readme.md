@@ -11,7 +11,7 @@ Concept-ready Agentic AI platform built on Asterisk PBX with OFP (Open Voice Net
 This project demonstrates a **multi-agent AI voice system** that orchestrates specialized AI agents in a conference call environment, featuring:
 
 - 🎤 Real-time speech recognition (Deepgram ASR)
-- 🤖 Dynamic AI responses (OpenAI GPT-4 + Deepgram TTS)
+- 🤖 Dynamic AI responses (OpenAI GPT-4 + Elevenlabs TTS)
 - 🎵 Zero-latency async hold music
 - 📋 OFP v1.0.0 protocol implementation
 - 🔄 Smart agent floor control management
