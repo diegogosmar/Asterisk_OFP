@@ -62,7 +62,7 @@ For a complete example of Asterisk MultiAgent call flow with OFP JSON messages, 
 | Language | Python 3.10+ |
 | ASR | Deepgram API |
 | LLM | OpenAI GPT-4 |
-| TTS | Deepgram Aura |
+| TTS | Elevenlabs |
 | Protocol | [OFP v1.0.0 (OVON)](https://github.com/open-voice-interoperability/openfloor-docs) |
 | Audio | SLIN16/ULAW 8kHz |
 
@@ -112,7 +112,8 @@ MIT License - see [LICENSE](LICENSE) file
 - [**Open Voice Network (OVON)**](https://openvoicenetwork.org) for OFP protocol specification
 - [**Open Voice Interoperability Initiative**](https://github.com/open-voice-interoperability) for standardization efforts
 - **Asterisk Community** for ARI framework
-- **Deepgram** for ASR/TTS services
+- **Deepgram** for ASR service
+- **Elevenlabs** for TTS service
 - **OpenAI** for GPT-4 language model
 
 ## References
