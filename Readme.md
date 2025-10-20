@@ -13,7 +13,7 @@ This project demonstrates a **multi-agent AI voice system** that orchestrates sp
 - 🎤 Real-time speech recognition (Deepgram ASR)
 - 🤖 Dynamic AI responses (OpenAI GPT-4 + Elevenlabs TTS)
 - 🎵 Zero-latency async hold music
-- 📋 OFP v1.0.0 protocol implementation
+- 📋 OFP v1.0.0 protocol implementation for Agentic AI MultiAgent collaboration
 - 🔄 Smart agent floor control management
 
 ## Architecture
